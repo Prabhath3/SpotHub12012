@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="600.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="root" stylesheets="@stye.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeemangementsystem.firstInterface">
+   <children>
+      <ImageView fitHeight="684.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@images/ChatGPT%20Image%20Nov%2013,%202025,%2001_49_41%20PM.png" />
+         </image>
+         <effect>
+            <GaussianBlur radius="5.0" />
+         </effect>
+      </ImageView>
+      <Button fx:id="signupBtn" layoutX="150.0" layoutY="413.0" mnemonicParsing="false" onAction="#signup" prefHeight="33.0" prefWidth="101.0" style="-fx-cursor: hand;" styleClass="btn1" stylesheets="@stye.css" text="Sign Up" textFill="#f6f2f2" />
+      <Button fx:id="logiBtn" layoutX="150.0" layoutY="468.0" mnemonicParsing="false" onAction="#login" prefHeight="33.0" prefWidth="101.0" style="-fx-cursor: hand;" styleClass="btn2" text="Login" />
+      <Label layoutX="105.0" layoutY="217.0" prefHeight="31.0" prefWidth="243.0" text="Employee Management" textAlignment="CENTER" textFill="#f6f3f3">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="248.0" text="System" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="164.0" styleClass="wcText" text="WELCOME" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="28.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="121.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enetr the personal details to your" textAlignment="CENTER">
+         <font>
+            <Font name="Corbel Light" size="12.0" />
+         </font></Text>
+      <Text fill="#f4f3f3" layoutX="157.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="employee account" textAlignment="CENTER">
+         <font>
+            <Font name="Corbel Light" size="12.0" />
+         </font></Text>
+      <ImageView fitHeight="213.0" fitWidth="195.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Untitled%20design%20(2).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

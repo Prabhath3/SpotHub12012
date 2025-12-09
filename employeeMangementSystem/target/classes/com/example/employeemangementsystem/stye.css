@@ -1,0 +1,95 @@
+
+
+.root{
+   -fx-font-family:'Gotham Black';
+    
+}
+
+.btn1{
+    -fx-background-color:linear-gradient(to right,#00C16A,rgb(1, 56, 27));
+    -fx-background-radius:10px;
+}
+
+.btn2{
+    -fx-text-fill:linear-gradient(to right,#00C16A,rgb(1, 56, 27));
+    -fx-background-color:white;
+    -fx-background-radius:10px;
+}
+
+.btn1:hover{
+     -fx-background-color:black;
+}
+.btn2:hover{
+     -fx-background-color:black;
+}
+
+.image{
+    -fx-background-image: url("images/emp1.jpg");
+}
+
+.bg2{
+     -fx-background-color:rgb(176, 174, 174);
+     -fx-opacity:30%;
+     -fx-background-radius:30px 30px 30px 30px;
+}
+
+.LoginBtn{
+    -fx-background-color:linear-gradient(to right,#00C16A,rgb(1, 56, 27));
+    -fx-background-radius:10px;
+}
+
+.LoginBtn:hover {
+    -fx-background-color:black;
+}
+
+.fnameTextarea,.addressTextarea, .dob, .position_List, .nic{
+    -fx-background-radius:10px;
+    -fx-background-color:white;
+}
+
+.create, .back{
+    -fx-background-color:linear-gradient(to right,#00C16A,rgb(1, 56, 27));
+    -fx-background-radius:10px;
+    -fx-pref-width:75px;
+    -fx-cursor:hand;
+}
+
+#rec1{
+    -fx-background-color:white;
+}
+
+.uInput, .Pinput{
+     -fx-background-radius:10px;
+     -fx-text-color:rgb(0, 0, 0);
+     -fx-background-color: #ffffff;
+}
+
+.homeBtn{
+     -fx-background-radius:50px;
+    -fx-background-color:#baa9a9;
+}
+
+.pCreateBtn, .resetBtn, .PBbtn, .PLbtn, .seeBtn{
+     -fx-background-color:linear-gradient(to right,#00C16A,rgb(1, 56, 27));
+     -fx-background-radius:10px;
+}
+.pCreateBtn:hover, .resetBtn:hover{
+    -fx-background-color:black;
+}
+.loginLink{
+    -fx-cursor:hand;
+}
+.loginLink:hover{
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.nicPro, .AddPro, .positionPro, .dobPro{
+    -fx-background-color:rgb(255, 255, 255);
+    -fx-text-alignment:center;
+    -fx-background-radius:10px;
+
+}
+.nameLabel, .wcText{
+    -fx-background-color:0;
+    -fx-text-fill:white;
+}
